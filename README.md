@@ -1,5 +1,5 @@
 # ✨ Personal Website Asri Dwi Wahyuningrum
-A digital CV and portfolio that I built to introduce myself, share my background, and display my projects.
+This repository contains the source code of my personal website, which serves as a digital CV and portfolio. It showcases my background, skills, and projects while providing a creative space to connect with me.
 
 ## 🔗 Link
 - [Figma Design](https://www.figma.com/design/jfGdaLvLNKmFkN3gIETbd9/Untitled?node-id=0-1&t=zrx3nkzgkA4mdvlv-1)
