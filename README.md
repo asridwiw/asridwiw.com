@@ -17,7 +17,6 @@ This repository contains the source code of my personal website, which serves as
 - HTML  
 - CSS  
 - JavaScript  
-- Figma
 
 ## 👀 Preview
 ![Website Preview](/assets/Home.png) 
