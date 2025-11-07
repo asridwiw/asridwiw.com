@@ -1,8 +1,6 @@
-
-
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #FAEEE7;
+  font-family: "Inter", sans-serif;
+  background-color: #faeee7;
   color: #001858;
   margin: 0;
   padding: 0;
@@ -13,7 +11,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #FAEEE7;
+  background-color: #faeee7;
 }
 
 nav {
@@ -27,17 +25,17 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  background-color: #F582AE;
+  background-color: #f582ae;
   padding: 10px 40px;
   border-radius: 25px;
   gap: 40px;
   margin: 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul li a {
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #001858;
   font-weight: 700;
   padding: 8px 16px;
@@ -46,14 +44,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #F582AE;
+  background-color: #f582ae;
   transform: scale(1.05);
 }
 
 html {
   scroll-behavior: smooth;
 }
-
 
 .home {
   display: flex;
@@ -62,7 +59,7 @@ html {
   padding: 40px 20px 80px 20px;
   padding-top: 120px;
   text-align: left;
-  background-color: #FAEEE7;
+  background-color: #faeee7;
   flex-wrap: wrap;
   gap: 40px;
   opacity: 0;
@@ -87,7 +84,7 @@ html {
 
 .home h1,
 .home h2 {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   color: #001858;
   flex: 1 1 420px;
   min-width: 280px;
@@ -103,14 +100,14 @@ html {
 .home h2 {
   font-size: 36px;
   margin: 0 0 14px 0;
-  color:#001858;
+  color: #001858;
   font-weight: 700;
   line-height: 1.05;
   margin-bottom: 12px;
 }
 
 .home p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #001858;
   font-style: italic;
   max-width: 500px;
@@ -126,15 +123,15 @@ html {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-radius: 50%; 
-  overflow: hidden;  
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .circle-bg {
   position: absolute;
   width: 340px;
   height: 340px;
-  background: #F582AE;
+  background: #f582ae;
   border-radius: 50%;
   z-index: 1;
 }
@@ -150,7 +147,7 @@ html {
 }
 
 .about {
-  background-color: #FAEEE7;
+  background-color: #faeee7;
   padding: 40px 20px 80px 20px;
   display: flex;
   flex-direction: column;
@@ -163,7 +160,7 @@ html {
   font-weight: 700;
   margin-bottom: 40px;
   text-align: center;
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
 }
 
 .about-container {
@@ -178,10 +175,10 @@ html {
 .about-photo {
   width: 300px;
   height: 300px;
-  background-color: #F582AE; 
+  background-color: #f582ae;
   border-radius: 50%;
   display: flex;
-  align-items: flex-end; 
+  align-items: flex-end;
   justify-content: center;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -199,7 +196,7 @@ html {
   width: 120%;
   height: auto;
   object-fit: contain;
-  transform: translateY(15px); 
+  transform: translateY(15px);
   transition: transform 0.4s ease;
 }
 
@@ -211,9 +208,9 @@ html {
   flex: 1;
   font-size: 1rem;
   line-height: 1.8;
-  color: #172C66;
+  color: #172c66;
   max-width: 600px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   text-align: justify;
@@ -251,8 +248,8 @@ html {
 
 .project-wrapper {
   display: grid;
-  grid-template-columns: 200px 1fr; 
-  align-items: stretch; 
+  grid-template-columns: 200px 1fr;
+  align-items: stretch;
   gap: 25px;
   width: 80%;
   max-width: 900px;
@@ -289,7 +286,7 @@ html {
 }
 
 .project-title {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   color: #001858;
   font-weight: 700;
   text-align: center;
@@ -305,18 +302,18 @@ html {
 .text-card {
   padding: 15px 20px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   background-color: #f3d2c1;
   border-radius: 15px;
 }
 
 .image-card img.ecampus {
-  transform: scale(1.4); 
+  transform: scale(1.4);
   transition: transform 0.3s ease;
 }
 
 .text-card p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   color: #001858;
   font-size: 1rem;
@@ -325,11 +322,11 @@ html {
 }
 
 .project h2 {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   font-size: 2rem;
   color: #001858;
   margin-bottom: 40px;
-  text-align: center; 
+  text-align: center;
 }
 
 .skill {
@@ -349,7 +346,7 @@ html {
 }
 
 .skill h2 {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   color: #001858;
   font-weight: 700;
   margin-bottom: 20px;
@@ -386,7 +383,7 @@ html {
 .contact-title {
   width: 100%;
   text-align: center;
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   font-size: 2.3rem;
   color: #001858;
   margin-bottom: 30px;
@@ -399,7 +396,7 @@ html {
 }
 
 .contact-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   color: #172c66;
   line-height: 1.6;
@@ -438,7 +435,7 @@ html {
 
 .contact-form input,
 .contact-form textarea {
-  font-family: 'Inria Sans', sans-serif;
+  font-family: "Inria Sans", sans-serif;
   font-weight: 300;
   width: 100%;
   max-width: 350px;
@@ -459,7 +456,7 @@ html {
 .contact-form button {
   background-color: #f582ae;
   color: #172c66;
-  font-family: 'Inria Sans', sans-serif;
+  font-family: "Inria Sans", sans-serif;
   font-weight: 700;
   border: none;
   border-radius: 10px;
@@ -484,7 +481,6 @@ html {
   }
 }
 
-
 footer {
   text-align: center;
   padding: 20px;
@@ -494,20 +490,41 @@ footer {
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(40px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 992px) {
-  .home-text h2 { font-size: 30px; }
-  .home-image { height: 260px; }
-  .circle-bg { width: 240px; height: 240px; }
-  .home-image img { width: 190px; height: 190px; transform: translateX(6%); }
+  .home-text h2 {
+    font-size: 30px;
+  }
+  .home-image {
+    height: 260px;
+  }
+  .circle-bg {
+    width: 240px;
+    height: 240px;
+  }
+  .home-image img {
+    width: 190px;
+    height: 190px;
+    transform: translateX(6%);
+  }
 }
 
 @media (max-width: 768px) {
@@ -519,26 +536,36 @@ footer {
     text-align: center;
     gap: 20px;
   }
-  .home-text { order: 1; }
-  .home-image { order: 2; }
-  .home-text h2 { font-size: 26px; }
-  .home-text p { margin: 0 auto; }
+  .home-text {
+    order: 1;
+  }
+  .home-image {
+    order: 2;
+  }
+  .home-text h2 {
+    font-size: 26px;
+  }
+  .home-text p {
+    margin: 0 auto;
+  }
   .about-container,
   .project-item {
     flex-direction: column;
     text-align: center;
     padding: 40px 20px;
   }
-  .project-item h3 { text-align: center; }
+  .project-item h3 {
+    text-align: center;
+  }
 }
 
 #home,
 #project,
 #skill {
-  scroll-margin-top: 120px; 
+  scroll-margin-top: 120px;
 }
 
 #about,
 #contact {
-  scroll-margin-top: 60px; 
+  scroll-margin-top: 60px;
 }
